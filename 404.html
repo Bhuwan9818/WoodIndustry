@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found – WoodCraft Pallets</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --wood-dark: #2C1810; --wood-mid: #5C3A1E; --gold: #C8922A;
+      --wood-cream: #F5EDE0; --wood-pale: #FAF5EE; --text-mid: #5C4A35;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--wood-pale); color: var(--wood-dark); min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 24px; }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; margin-bottom: 48px; }
+    .logo-icon { font-size: 1.8rem; color: var(--wood-mid); }
+    .logo-main { font-family: 'Playfair Display', serif; font-weight: 800; font-size: 1.2rem; color: var(--wood-dark); display: block; line-height: 1; }
+    .logo-sub { font-size: 0.6rem; font-weight: 600; letter-spacing: 0.2em; color: #C4956A; text-transform: uppercase; display: block; }
+    .error-num { font-family: 'Playfair Display', serif; font-size: clamp(5rem, 15vw, 10rem); font-weight: 800; color: var(--wood-cream); line-height: 1; margin-bottom: 16px; -webkit-text-stroke: 2px var(--wood-dark); }
+    h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.5rem, 4vw, 2.2rem); margin-bottom: 16px; }
+    p { color: var(--text-mid); font-size: 1rem; max-width: 480px; line-height: 1.7; margin-bottom: 36px; }
+    .actions { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+    .btn { padding: 13px 26px; border-radius: 4px; font-size: 0.95rem; font-weight: 600; text-decoration: none; transition: all 0.3s ease; }
+    .btn-primary { background: var(--wood-dark); color: #fff; }
+    .btn-primary:hover { background: var(--wood-mid); }
+    .btn-outline { background: transparent; color: var(--wood-dark); border: 2px solid var(--wood-dark); }
+    .btn-outline:hover { background: var(--wood-cream); }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="logo">
+    <span class="logo-icon">⬡</span>
+    <div>
+      <span class="logo-main">WoodCraft</span>
+      <span class="logo-sub">PALLETS</span>
+    </div>
+  </a>
+  <div class="error-num">404</div>
+  <h1>Page Not Found</h1>
+  <p>The page you're looking for doesn't exist or may have been moved. Let us help you find what you need.</p>
+  <div class="actions">
+    <a href="index.html" class="btn btn-primary">← Back to Home</a>
+    <a href="products.html" class="btn btn-outline">Browse Products</a>
+    <a href="contact.html" class="btn btn-outline">Send Enquiry</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /enquiry-log.txt
+Disallow: /enquiry.php
+
+Sitemap: https://www.woodcraftpallets.com/sitemap.xml

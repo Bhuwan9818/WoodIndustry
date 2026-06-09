@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Enquiry – WoodCraft Pallets | Get a Free Quote</title>
+  <meta name="description" content="Send an enquiry to WoodCraft Pallets for wooden pallets, crates, or custom packaging solutions. Response within 24 hours. Call +91-98765-43210." />
+  <meta name="keywords" content="wooden pallet enquiry, pallet supplier contact, get wooden pallet quote, wooden pallet manufacturer India contact" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.woodcraftpallets.com/contact.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/enhanced.css" />
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="page-loader" id="page-loader"><div class="loader-inner"><div class="loader-logo"><span class="loader-hex">⬡</span><span class="loader-brand">WoodCraft</span></div><div class="loader-bar"><div class="loader-fill"></div></div></div></div>
+
+<!-- CURSOR -->
+<div class="custom-cursor" id="cursor"></div>
+<div class="custom-cursor-follower" id="cursor-follower"></div>
+
+<header class="site-header" id="site-header">
+  <div class="header-inner container">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">⬡</span>
+      <div class="logo-text">
+        <span class="logo-main">WoodCraft</span>
+        <span class="logo-sub">PALLETS</span>
+      </div>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="index.html#why-us">Why Us</a></li>
+        <li><a href="contact.html" class="active nav-cta">Get Quote</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero" aria-label="Contact Page Hero">
+  <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1200&q=68&auto=format&fm=webp&fit=crop');background-size:cover;background-position:center;"></div>
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a> <span>›</span> <span>Contact & Enquiry</span>
+    </nav>
+    <h1>Send Us an Enquiry</h1>
+    <p>Share your requirements and we'll respond within 24 business hours with a competitive quote.</p>
+  </div>
+</section>
+
+<section class="section contact-section">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- CONTACT INFO -->
+      <div class="contact-info-panel">
+        <h2>Get In Touch</h2>
+        <p>Whether you need standard pallets or a fully custom solution, our team is here to help.</p>
+
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <strong>Factory & Office</strong>
+              <p>Industrial Area, Sector 5<br>Delhi – 110001, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div>
+              <strong>Phone / WhatsApp</strong>
+              <p><a href="tel:+919876543210">+91-98765-43210</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:enquiry@woodcraftpallets.com">enquiry@woodcraftpallets.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">⏰</div>
+            <div>
+              <strong>Business Hours</strong>
+              <p>Mon – Sat: 9:00 AM – 6:00 PM<br>Sunday: Closed</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-trust">
+          <div class="trust-badge">
+            <div class="trust-icon">✓</div>
+            <span>Response within 24 hours</span>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-icon">✓</div>
+            <span>Free consultation & quote</span>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-icon">✓</div>
+            <span>Bulk order discounts available</span>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-icon">✓</div>
+            <span>Custom sizes & specifications</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ENQUIRY FORM -->
+      <div class="enquiry-form-panel">
+        <div class="form-header">
+          <h2>Product Enquiry Form</h2>
+          <p>Fill in your details and requirements below.</p>
+        </div>
+
+        <div id="form-success" class="form-success-msg" style="display:none;">
+          <div class="success-icon">✅</div>
+          <h3>Enquiry Sent Successfully!</h3>
+          <p>Thank you for reaching out. Our team will contact you within 24 business hours.</p>
+          <button class="btn btn-primary" onclick="resetForm()">Send Another Enquiry</button>
+        </div>
+
+        <div id="form-error" class="form-error-msg" style="display:none;">
+          <p>⚠️ <span id="error-text">Something went wrong. Please try again or email us directly.</span></p>
+        </div>
+
+        <form id="enquiry-form" class="enquiry-form" method="POST" action="enquiry.php" novalidate>
+          <input type="hidden" name="csrf_token" id="csrf_token" value="" />
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name <span class="req">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name" />
+              <span class="field-error" id="name-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="company">Company / Business Name</label>
+              <input type="text" id="company" name="company" placeholder="Your company (optional)" autocomplete="organization" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address <span class="req">*</span></label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+              <span class="field-error" id="email-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp <span class="req">*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required autocomplete="tel" />
+              <span class="field-error" id="phone-error"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="product">Product of Interest <span class="req">*</span></label>
+              <select id="product" name="product" required>
+                <option value="">— Select a Product —</option>
+                <option value="Euro Pallets (1200x800mm)">Euro Pallets (1200x800mm)</option>
+                <option value="Standard Block Pallets">Standard Block Pallets</option>
+                <option value="Heat Treated Export Pallets">Heat Treated Export Pallets</option>
+                <option value="Heavy Duty Pallets">Heavy Duty Pallets</option>
+                <option value="Two-Way Entry Pallets">Two-Way Entry Pallets</option>
+                <option value="Four-Way Entry Pallets">Four-Way Entry Pallets</option>
+                <option value="Wooden Crates (Open Top)">Wooden Crates (Open Top)</option>
+                <option value="Wooden Crates (Closed/Fumigated)">Wooden Crates (Closed / Fumigated)</option>
+                <option value="Pallet Boxes / Collars">Pallet Boxes / Collars</option>
+                <option value="Pallet Skids">Pallet Skids</option>
+                <option value="Notched Pallets">Notched Pallets</option>
+                <option value="Reversible Pallets">Reversible Pallets</option>
+                <option value="Pharmaceutical Grade Pallets">Pharmaceutical Grade Pallets</option>
+                <option value="Automotive / OEM Pallets">Automotive / OEM Pallets</option>
+                <option value="Custom Sized Pallets">Custom Sized Pallets</option>
+                <option value="Other / Not Listed">Other / Not Listed</option>
+              </select>
+              <span class="field-error" id="product-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="quantity">Approximate Quantity <span class="req">*</span></label>
+              <select id="quantity" name="quantity" required>
+                <option value="">— Select Quantity —</option>
+                <option value="Less than 100 units">Less than 100 units</option>
+                <option value="100–500 units">100–500 units</option>
+                <option value="500–1,000 units">500–1,000 units</option>
+                <option value="1,000–5,000 units">1,000–5,000 units</option>
+                <option value="5,000–10,000 units">5,000–10,000 units</option>
+                <option value="10,000+ units">10,000+ units (Large Bulk)</option>
+              </select>
+              <span class="field-error" id="quantity-error"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="location">Delivery Location</label>
+            <input type="text" id="location" name="location" placeholder="City, State (e.g. Mumbai, Maharashtra)" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Additional Requirements</label>
+            <textarea id="message" name="message" rows="4" placeholder="Custom dimensions, load capacity, wood type, special requirements, or any other details..."></textarea>
+          </div>
+
+          <div class="form-group form-consent">
+            <label class="checkbox-label">
+              <input type="checkbox" id="consent" name="consent" required />
+              <span>I agree to be contacted by WoodCraft Pallets regarding my enquiry. <span class="req">*</span></span>
+            </label>
+            <span class="field-error" id="consent-error"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+            <span class="btn-text">Send Enquiry</span>
+            <span class="btn-loading" style="display:none;">Sending...</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">⬡</span>
+          <div class="logo-text">
+            <span class="logo-main">WoodCraft</span>
+            <span class="logo-sub">PALLETS</span>
+          </div>
+        </a>
+        <p>India's trusted wooden pallet manufacturer delivering quality, compliance, and reliability for over 15 years.</p>
+        <div class="footer-certifications">
+          <span class="cert-badge">ISPM-15</span>
+          <span class="cert-badge">ISO Compliant</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact & Enquiry</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="products.html">Euro Pallets</a></li>
+          <li><a href="products.html">Block Pallets</a></li>
+          <li><a href="products.html">Heat Treated Pallets</a></li>
+          <li><a href="products.html">Wooden Crates</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>📍 Industrial Area, Sector 5, Delhi – 110001</p>
+        <p>📞 <a href="tel:+919876543210">+91-98765-43210</a></p>
+        <p>✉️ <a href="mailto:enquiry@woodcraftpallets.com">enquiry@woodcraftpallets.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 WoodCraft Pallets. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/contact.js"></script>
+<script src="js/main.js"></script>
+<button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+<script src="js/enhanced.js"></script>
+</body>
+</html>
