@@ -905,6 +905,7 @@ body:hover .custom-cursor { opacity: 1; }
   .strip-features { grid-template-columns: 1fr; }
   .why-inner { gap: 48px; }
   .wsc-card { flex: 1; min-width: 140px; }
+  .hero-stats-bar{display: none;}
 }
 
 @media (max-width: 480px) {
