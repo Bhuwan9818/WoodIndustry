@@ -23,7 +23,7 @@ function buildProductCard(p) {
     <article class="product-card fade-in" data-id="${p.id}" data-category="${p.category}" data-tags="${p.tags.join(',')}" itemscope itemtype="https://schema.org/Product">
       <div class="product-visual">
         <div class="product-illustration">
-          <span class="product-emoji" aria-hidden="true">${p.emoji}</span>
+          <img src="${p.img}" alt="${p.name}" class="product-image">
         </div>
         <div class="product-category-badge">${categoryLabel}</div>
       </div>

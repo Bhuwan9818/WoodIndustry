@@ -4,9 +4,10 @@
 const PRODUCTS = [
   {
     id: 1,
-    slug: "euro-pallets",
-    name: "Euro Pallets (EUR 1200×800mm)",
+    slug: "Two-way-pallets",
+    name: "Two way pallets",
     category: "pallet",
+    img: "images/twowayWider.png",
     tags: ["pallet", "export"],
     emoji: "🪵",
     shortDesc: "Standard European-size pallets. Universally compatible with racking systems and pallet trucks across all major industries.",
@@ -30,9 +31,10 @@ const PRODUCTS = [
   },
   {
     id: 2,
-    slug: "block-pallets",
-    name: "Standard Block Pallets",
+    slug: "Four-way-pallets",
+    name: "Four way pallets",
     category: "pallet",
+    img: "images/Fourway.jpeg",
     tags: ["pallet", "custom"],
     emoji: "📦",
     shortDesc: "Heavy-duty 9-block pallets with 4-way entry. Ideal for high-stack warehousing and automated pallet handling.",
@@ -56,8 +58,8 @@ const PRODUCTS = [
   },
   {
     id: 3,
-    slug: "heat-treated-export-pallets",
-    name: "Heat Treated Export Pallets (ISPM-15)",
+    slug: "Wooden-Boxes",
+    name: "Wooden Boxes",
     category: "pallet",
     tags: ["pallet", "export"],
     emoji: "🔥",
@@ -82,8 +84,8 @@ const PRODUCTS = [
   },
   {
     id: 4,
-    slug: "heavy-duty-pallets",
-    name: "Heavy Duty Industrial Pallets",
+    slug: "Ply-Boxes",
+    name: "Ply Boxes",
     category: "pallet",
     tags: ["pallet", "custom"],
     emoji: "⚙️",
@@ -106,36 +108,36 @@ const PRODUCTS = [
       "Compatible with crane slings and spreader bars"
     ]
   },
-  {
-    id: 5,
-    slug: "two-way-entry-pallets",
-    name: "Two-Way Entry Pallets",
-    category: "pallet",
-    tags: ["pallet"],
-    emoji: "↔️",
-    shortDesc: "Cost-effective stringer pallets with two-way forklift entry. Standard choice for manual and semi-automated warehouses.",
-    description: "Two-Way Entry Pallets feature solid stringers that allow fork entry from two sides only (front and back). This classic design is the most economical pallet solution and remains widely used in storage, distribution, and light manufacturing environments. Our two-way pallets are available in multiple sizes and can be upgraded with notched stringers for limited 4-way access.",
-    specs: {
-      "Entry": "2-way (front and back)",
-      "Stringer Type": "Solid or Notched",
-      "Standard Dimensions": "1200 × 800 / 1200 × 1000 mm",
-      "Load Capacity": "1,000–1,500 kg",
-      "Top Boards": "3–5 boards",
-      "Application": "General Warehousing"
-    },
-    features: [
-      "Most economical pallet design",
-      "Available with notched stringers for partial 4-way entry",
-      "Strong and durable for general warehousing",
-      "Easy to repair and maintain",
-      "Available in multiple standard sizes",
-      "Ideal for pallet racking systems"
-    ]
-  },
+  // {
+  //   id: 5,
+  //   slug: "two-way-pallets",
+  //   name: "Two Way Pallets",
+  //   category: "pallet",
+  //   tags: ["pallet"],
+  //   emoji: "↔️",
+  //   shortDesc: "Cost-effective stringer pallets with two-way forklift entry. Standard choice for manual and semi-automated warehouses.",
+  //   description: "Two-Way Entry Pallets feature solid stringers that allow fork entry from two sides only (front and back). This classic design is the most economical pallet solution and remains widely used in storage, distribution, and light manufacturing environments. Our two-way pallets are available in multiple sizes and can be upgraded with notched stringers for limited 4-way access.",
+  //   specs: {
+  //     "Entry": "2-way (front and back)",
+  //     "Stringer Type": "Solid or Notched",
+  //     "Standard Dimensions": "1200 × 800 / 1200 × 1000 mm",
+  //     "Load Capacity": "1,000–1,500 kg",
+  //     "Top Boards": "3–5 boards",
+  //     "Application": "General Warehousing"
+  //   },
+  //   features: [
+  //     "Most economical pallet design",
+  //     "Available with notched stringers for partial 4-way entry",
+  //     "Strong and durable for general warehousing",
+  //     "Easy to repair and maintain",
+  //     "Available in multiple standard sizes",
+  //     "Ideal for pallet racking systems"
+  //   ]
+  // },
   {
     id: 6,
-    slug: "four-way-entry-pallets",
-    name: "Four-Way Entry Pallets",
+    slug: "Pinewood-Boxes",
+    name: "Pinewood Boxes",
     category: "pallet",
     tags: ["pallet", "export"],
     emoji: "🔄",
@@ -160,8 +162,8 @@ const PRODUCTS = [
   },
   {
     id: 7,
-    slug: "wooden-crates-open-top",
-    name: "Wooden Crates (Open Top)",
+    slug: "Seaworthy-Boxes",
+    name: "Seaworthy Boxes",
     category: "crate",
     tags: ["crate"],
     emoji: "📫",
@@ -186,8 +188,8 @@ const PRODUCTS = [
   },
   {
     id: 8,
-    slug: "wooden-crates-closed-fumigated",
-    name: "Closed Wooden Crates (Fumigated)",
+    slug: "Shrink-wrap",
+    name: "Shrink wrap",
     category: "crate",
     tags: ["crate", "export"],
     emoji: "📦",
@@ -212,8 +214,8 @@ const PRODUCTS = [
   },
   {
     id: 9,
-    slug: "pallet-boxes-collars",
-    name: "Pallet Boxes & Pallet Collars",
+    slug: "Bubbles-Polythene",
+    name: "Bubbles Polythene",
     category: "crate",
     tags: ["crate", "custom"],
     emoji: "🗃️",
@@ -238,8 +240,8 @@ const PRODUCTS = [
   },
   {
     id: 10,
-    slug: "pallet-skids",
-    name: "Pallet Skids (Runner Pallets)",
+    slug: "Tape",
+    name: "Tape",
     category: "pallet",
     tags: ["pallet", "custom"],
     emoji: "🛷",
@@ -264,8 +266,8 @@ const PRODUCTS = [
   },
   {
     id: 11,
-    slug: "notched-pallets",
-    name: "Notched Stringer Pallets",
+    slug: "Wooden-Crates",
+    name: "Wooden Crates",
     category: "pallet",
     tags: ["pallet"],
     emoji: "🔧",
@@ -290,8 +292,8 @@ const PRODUCTS = [
   },
   {
     id: 12,
-    slug: "reversible-pallets",
-    name: "Reversible Double-Deck Pallets",
+    slug: "Polythene",
+    name: "Polythene",
     category: "pallet",
     tags: ["pallet", "custom"],
     emoji: "🔃",
@@ -314,82 +316,82 @@ const PRODUCTS = [
       "Reduced total cost of ownership over time"
     ]
   },
-  {
-    id: 13,
-    slug: "pharmaceutical-grade-pallets",
-    name: "Pharmaceutical Grade Pallets",
-    category: "pallet",
-    tags: ["pallet", "export", "custom"],
-    emoji: "💊",
-    shortDesc: "Hygienic, smooth-finish pallets for pharma and food-grade applications. Free of knots, protrusions, and splinters.",
-    description: "Pharmaceutical Grade Pallets are manufactured to meet the hygiene and quality requirements of pharmaceutical, food, and healthcare supply chains. They feature smooth-planed surfaces, no protruding nails or splinters, tight-knot-free boards, and optional white or natural finish. These pallets comply with WHO Good Distribution Practice (GDP) guidelines and are compatible with cleanroom environments and cold-chain logistics.",
-    specs: {
-      "Surface": "Smooth planed, splinter-free",
-      "Nail Type": "Annular ring / Recessed only",
-      "Moisture Content": "≤12% (kiln dried)",
-      "Dimensions": "1200 × 800 mm standard",
-      "Compliance": "WHO GDP / GMP compatible",
-      "Inspection": "100% board-level QC"
-    },
-    features: [
-      "Smooth planed surfaces — no splinters or protrusions",
-      "Recessed nail heads prevent product damage",
-      "Kiln-dried to low moisture for stability",
-      "No bark or loose knots",
-      "Compatible with cleanroom requirements",
-      "Heat treated (ISPM-15) available for export pharma"
-    ]
-  },
-  {
-    id: 14,
-    slug: "automotive-oem-pallets",
-    name: "Automotive / OEM Wooden Pallets",
-    category: "pallet",
-    tags: ["pallet", "custom"],
-    emoji: "🚗",
-    shortDesc: "Custom wooden pallets and racks for auto parts, bumpers, and OEM components. Built to plant-specific specs.",
-    description: "Automotive OEM Pallets are custom-designed wooden pallet and rack solutions for car parts, engine components, bumpers, body panels, and sub-assemblies. These are built to plant-specific engineering drawings and are used across the Tier 1 and Tier 2 auto supply chain. Dunnage, foam inserts, pipe supports, and fabric protection can be incorporated. Available as single-trip or returnable pallet designs.",
-    specs: {
-      "Design": "Custom per engineering drawing",
-      "Application": "Auto parts, OEM supply chain",
-      "Material": "Hardwood + optional steel brackets",
-      "Inserts": "Foam / Fabric / Pipe dunnage",
-      "Returnable": "Single-trip or multi-trip",
-      "Min. Order": "50 units (custom designs)"
-    },
-    features: [
-      "Custom-built to OEM engineering specifications",
-      "Foam and fabric inserts to protect finished surfaces",
-      "Pipe and rod dunnage for cylinders and shafts",
-      "Compatible with Tier 1 supplier requirements",
-      "Both single-trip and returnable designs available",
-      "Quick-turn manufacturing for line-stop situations"
-    ]
-  },
-  {
-    id: 15,
-    slug: "custom-sized-pallets",
-    name: "Custom Sized Wooden Pallets",
-    category: "custom",
-    tags: ["pallet", "crate", "custom", "export"],
-    emoji: "📐",
-    shortDesc: "Any size, any load capacity, any wood species. Fully custom manufacturing to your exact specification.",
-    description: "WoodCraft Pallets specializes in manufacturing fully custom wooden pallets to any dimension, load capacity, board configuration, and wood species. Whether you need an unusual footprint for specialized machinery, pallets for a non-standard racking system, or a one-of-a-kind solution for an oddly shaped product — our in-house design team can engineer and manufacture it. Share your requirements and receive a drawing + quote within 48 hours.",
-    specs: {
-      "Size Range": "Any dimension (min 400mm)",
-      "Load Capacity": "Custom engineered",
-      "Wood Species": "Pine, Teak, Sal, Eucalyptus, Plywood",
-      "Design Turnaround": "48 hours (drawing + quote)",
-      "Min. Order": "25 units (custom)",
-      "Lead Time": "5–15 business days"
-    },
-    features: [
-      "Any footprint, height, and load specification",
-      "Engineering drawing provided before production",
-      "All wood species available — soft and hardwood",
-      "Plywood deck options for smooth surfaces",
-      "Mixed material pallets (wood + metal) on request",
-      "Prototype approval before full production run"
-    ]
-  }
+  // {
+  //   id: 13,
+  //   slug: "pharmaceutical-grade-pallets",
+  //   name: "Pharmaceutical Grade Pallets",
+  //   category: "pallet",
+  //   tags: ["pallet", "export", "custom"],
+  //   emoji: "💊",
+  //   shortDesc: "Hygienic, smooth-finish pallets for pharma and food-grade applications. Free of knots, protrusions, and splinters.",
+  //   description: "Pharmaceutical Grade Pallets are manufactured to meet the hygiene and quality requirements of pharmaceutical, food, and healthcare supply chains. They feature smooth-planed surfaces, no protruding nails or splinters, tight-knot-free boards, and optional white or natural finish. These pallets comply with WHO Good Distribution Practice (GDP) guidelines and are compatible with cleanroom environments and cold-chain logistics.",
+  //   specs: {
+  //     "Surface": "Smooth planed, splinter-free",
+  //     "Nail Type": "Annular ring / Recessed only",
+  //     "Moisture Content": "≤12% (kiln dried)",
+  //     "Dimensions": "1200 × 800 mm standard",
+  //     "Compliance": "WHO GDP / GMP compatible",
+  //     "Inspection": "100% board-level QC"
+  //   },
+  //   features: [
+  //     "Smooth planed surfaces — no splinters or protrusions",
+  //     "Recessed nail heads prevent product damage",
+  //     "Kiln-dried to low moisture for stability",
+  //     "No bark or loose knots",
+  //     "Compatible with cleanroom requirements",
+  //     "Heat treated (ISPM-15) available for export pharma"
+  //   ]
+  // },
+  // {
+  //   id: 14,
+  //   slug: "automotive-oem-pallets",
+  //   name: "Automotive / OEM Wooden Pallets",
+  //   category: "pallet",
+  //   tags: ["pallet", "custom"],
+  //   emoji: "🚗",
+  //   shortDesc: "Custom wooden pallets and racks for auto parts, bumpers, and OEM components. Built to plant-specific specs.",
+  //   description: "Automotive OEM Pallets are custom-designed wooden pallet and rack solutions for car parts, engine components, bumpers, body panels, and sub-assemblies. These are built to plant-specific engineering drawings and are used across the Tier 1 and Tier 2 auto supply chain. Dunnage, foam inserts, pipe supports, and fabric protection can be incorporated. Available as single-trip or returnable pallet designs.",
+  //   specs: {
+  //     "Design": "Custom per engineering drawing",
+  //     "Application": "Auto parts, OEM supply chain",
+  //     "Material": "Hardwood + optional steel brackets",
+  //     "Inserts": "Foam / Fabric / Pipe dunnage",
+  //     "Returnable": "Single-trip or multi-trip",
+  //     "Min. Order": "50 units (custom designs)"
+  //   },
+  //   features: [
+  //     "Custom-built to OEM engineering specifications",
+  //     "Foam and fabric inserts to protect finished surfaces",
+  //     "Pipe and rod dunnage for cylinders and shafts",
+  //     "Compatible with Tier 1 supplier requirements",
+  //     "Both single-trip and returnable designs available",
+  //     "Quick-turn manufacturing for line-stop situations"
+  //   ]
+  // },
+  // {
+  //   id: 15,
+  //   slug: "custom-sized-pallets",
+  //   name: "Custom Sized Wooden Pallets",
+  //   category: "custom",
+  //   tags: ["pallet", "crate", "custom", "export"],
+  //   emoji: "📐",
+  //   shortDesc: "Any size, any load capacity, any wood species. Fully custom manufacturing to your exact specification.",
+  //   description: "WoodCraft Pallets specializes in manufacturing fully custom wooden pallets to any dimension, load capacity, board configuration, and wood species. Whether you need an unusual footprint for specialized machinery, pallets for a non-standard racking system, or a one-of-a-kind solution for an oddly shaped product — our in-house design team can engineer and manufacture it. Share your requirements and receive a drawing + quote within 48 hours.",
+  //   specs: {
+  //     "Size Range": "Any dimension (min 400mm)",
+  //     "Load Capacity": "Custom engineered",
+  //     "Wood Species": "Pine, Teak, Sal, Eucalyptus, Plywood",
+  //     "Design Turnaround": "48 hours (drawing + quote)",
+  //     "Min. Order": "25 units (custom)",
+  //     "Lead Time": "5–15 business days"
+  //   },
+  //   features: [
+  //     "Any footprint, height, and load specification",
+  //     "Engineering drawing provided before production",
+  //     "All wood species available — soft and hardwood",
+  //     "Plywood deck options for smooth surfaces",
+  //     "Mixed material pallets (wood + metal) on request",
+  //     "Prototype approval before full production run"
+  //   ]
+  // }
 ];
