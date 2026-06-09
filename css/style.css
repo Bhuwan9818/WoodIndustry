@@ -163,7 +163,8 @@ em { font-style: italic; color: var(--gold); }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
-  background: rgba(250, 245, 238, 0.95);
+  overflow: hidden;
+  background: #FFFFF7;
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   transition: var(--transition);
@@ -180,6 +181,7 @@ em { font-style: italic; color: var(--gold); }
 
 /* LOGO */
 .logo {
+  width: 110px;
   display: flex;
   align-items: center;
   gap: 10px;
